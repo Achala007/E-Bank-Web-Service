@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:48095/eBankWebService/eBankSignIn?wsdl" uri="wsdl/localhost_48095/eBankWebService/eBankSignIn.wsdl"/>
+    <system systemId="http://localhost:48095/eBankWebService/eBankSignIn?xsd=1" uri="wsdl/localhost_48095/eBankWebService/eBankSignIn.xsd_1.xsd"/>
+    <system systemId="http://localhost:48095/eBankWebService/manageEmpData?wsdl" uri="wsdl/localhost_48095/eBankWebService/manageEmpData.wsdl"/>
+    <system systemId="http://localhost:48095/eBankWebService/manageEmpData?xsd=1" uri="wsdl/localhost_48095/eBankWebService/manageEmpData.xsd_1.xsd"/>
+    <system systemId="http://localhost:48095/eBankWebService/manageCustData?wsdl" uri="wsdl/localhost_48095/eBankWebService/manageCustData.wsdl"/>
+    <system systemId="http://localhost:48095/eBankWebService/manageCustData?xsd=1" uri="wsdl/localhost_48095/eBankWebService/manageCustData.xsd_1.xsd"/>
+    <system systemId="http://localhost:48095/eBankWebService/EmpData?wsdl" uri="wsdl/localhost_48095/eBankWebService/EmpData.wsdl"/>
+    <system systemId="http://localhost:48095/eBankWebService/EmpData?xsd=1" uri="wsdl/localhost_48095/eBankWebService/EmpData.xsd_1.xsd"/>
+    <system systemId="http://localhost:48095/eBankWebService/eBankLogin?wsdl" uri="wsdl/localhost_48095/eBankWebService/eBankLogin.wsdl"/>
+    <system systemId="http://localhost:48095/eBankWebService/eBankLogin?xsd=1" uri="wsdl/localhost_48095/eBankWebService/eBankLogin.xsd_1.xsd"/>
+    <system systemId="http://localhost:48095/eBankWebService/retrieveData?wsdl" uri="wsdl/localhost_48095/eBankWebService/retrieveData.wsdl"/>
+    <system systemId="http://localhost:48095/eBankWebService/retrieveData?xsd=1" uri="wsdl/localhost_48095/eBankWebService/retrieveData.xsd_1.xsd"/>
+</catalog>

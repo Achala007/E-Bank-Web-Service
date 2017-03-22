@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:j2seproject3="http://www.netbeans.org/ns/j2se-project/3" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${libs.jaxws21.classpath}"/>
+        </taskdef>
+    </target>
+    <target name="wsimport-client-eBankLogin" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/eBankLogin"/>
+        <property name="wsdl-eBankLogin" location="xml-resources/web-service-references/eBankLogin/wsdl/localhost_48095/eBankWebService/eBankLogin.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/eBankLogin" destdir="${build.generated.dir}/jax-wsCache/eBankLogin" wsdl="${wsdl-eBankLogin}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:48095/eBankWebService/eBankLogin?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-eBankLogin}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/eBankLogin"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/eBankLogin">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-eBankLogin" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/eBankLogin"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ebank"/>
+    </target>
+    <target name="wsimport-client-manageEmpData" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/manageEmpData"/>
+        <property name="wsdl-manageEmpData" location="xml-resources/web-service-references/manageEmpData/wsdl/localhost_48095/eBankWebService/manageEmpData.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/manageEmpData" destdir="${build.generated.dir}/jax-wsCache/manageEmpData" wsdl="${wsdl-manageEmpData}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:48095/eBankWebService/manageEmpData?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-manageEmpData}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/manageEmpData"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/manageEmpData">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-manageEmpData" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/manageEmpData"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ebank"/>
+    </target>
+    <target name="wsimport-client-manageCustData" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/manageCustData"/>
+        <property name="wsdl-manageCustData" location="xml-resources/web-service-references/manageCustData/wsdl/localhost_48095/eBankWebService/manageCustData.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/manageCustData" destdir="${build.generated.dir}/jax-wsCache/manageCustData" wsdl="${wsdl-manageCustData}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:48095/eBankWebService/manageCustData?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-manageCustData}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/manageCustData"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/manageCustData">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-manageCustData" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/manageCustData"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ebank"/>
+    </target>
+    <target name="wsimport-client-retrieveData" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/retrieveData"/>
+        <property name="wsdl-retrieveData" location="xml-resources/web-service-references/retrieveData/wsdl/localhost_48095/eBankWebService/retrieveData.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/retrieveData" destdir="${build.generated.dir}/jax-wsCache/retrieveData" wsdl="${wsdl-retrieveData}" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:48095/eBankWebService/retrieveData?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${wsdl-retrieveData}"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/retrieveData"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/retrieveData">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-retrieveData" depends="-init-project">
+        <delete dir="${build.generated.dir}/jax-wsCache/retrieveData"/>
+        <delete dir="${build.generated.sources.dir}/jax-ws/ebank"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-eBankLogin, wsimport-client-manageEmpData, wsimport-client-manageCustData, wsimport-client-retrieveData"/>
+</project>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://eBank/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://eBank/">
+
+<xs:element name="createEmployee" type="tns:createEmployee"/>
+
+<xs:element name="createEmployeeResponse" type="tns:createEmployeeResponse"/>
+
+<xs:element name="deleteEmployee" type="tns:deleteEmployee"/>
+
+<xs:element name="deleteEmployeeResponse" type="tns:deleteEmployeeResponse"/>
+
+<xs:element name="findEmpDetails" type="tns:findEmpDetails"/>
+
+<xs:element name="findEmpDetailsResponse" type="tns:findEmpDetailsResponse"/>
+
+<xs:element name="findempdata" type="tns:findempdata"/>
+
+<xs:element name="findempdataResponse" type="tns:findempdataResponse"/>
+
+<xs:element name="updateEmp" type="tns:updateEmp"/>
+
+<xs:element name="updateEmpResponse" type="tns:updateEmpResponse"/>
+
+<xs:complexType name="findEmpDetails">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="findEmpDetailsResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createEmployee">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="position" type="xs:string" minOccurs="0"/>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createEmployeeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteEmployee">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="deleteEmployeeResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateEmp">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="position" type="xs:string" minOccurs="0"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="pass" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateEmpResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="findempdata">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="findempdataResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
