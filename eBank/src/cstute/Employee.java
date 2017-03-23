@@ -64,7 +64,22 @@ public class Employee extends javax.swing.JFrame {
             }
         });
 
-       
+        jButton4.setText("Create");
+
+        jButton1.setText("Register");
+
+        jButton5.setText("Clear");
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setText("Regitration");
+
+        jLabel3.setText("Name : ");
+
+        jLabel4.setText("Position : ");
+
+        jLabel5.setText("Username : ");
+
+        jLabel6.setText("Password : ");
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
