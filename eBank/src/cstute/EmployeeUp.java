@@ -66,7 +66,16 @@ public class EmployeeUp extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        
+        jLabel4.setText("Position : ");
+
+        jLabel5.setText("Username : ");
+
+        createEmpButton.setText("Add Employee");
+        createEmpButton.setPreferredSize(new java.awt.Dimension(97, 23));
+        createEmpButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                createEmpButtonActionPerformed(evt);
+            }
         });
 
         jLabel3.setText("Name : ");
