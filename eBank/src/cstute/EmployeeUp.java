@@ -462,39 +462,7 @@ public class EmployeeUp extends javax.swing.JFrame {
 
     private void empUserNameTextField1MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_empUserNameTextField1MousePressed
         String userName = JOptionPane.showInputDialog(null, "Enter the username", "Prompt username", HEIGHT);
-//        Connection con = null;
-//        try {
-//            Class.forName("com.mysql.jdbc.Driver");
-//            con = DriverManager.getConnection("jdbc:mysql://localhost/ebank", "root", "");
-//            PreparedStatement statement = con.prepareStatement("select * from employeeData where userName = ?");
-//            statement.setString(1, userName);
-//            ResultSet rs = statement.executeQuery();
-//            rs.next();
-//            if (rs.getString(3).equals(userName)) {
-//                empNameTextField1.setText(rs.getString(1));
-//                empPasswordField1.setText(rs.getString(4));
-//                empUserNameTextField1.setText(rs.getString(3));
-//                empPositionTextField1.setText(rs.getString(2));
-//                empNameTextField1.setEditable(true);
-//                empPasswordField1.setEditable(true);
-//                empPositionTextField1.setEditable(true);
-//            }
-//            con.close();
-//        }catch(SQLException  e){
-//            System.out.println("Username not found, please check the username.");
-//        } catch (ClassNotFoundException e) {
-//            System.err.println("Got an exception!");
-//            System.err.println(e.getMessage());
-//        }
-//if (rs.getString(3).equals(userName)) {
-//                empNameTextField1.setText(rs.getString(1));
-//                empPasswordField1.setText(rs.getString(4));
-//                empUserNameTextField1.setText(rs.getString(3));
-//                empPositionTextField1.setText(rs.getString(2));
-//                empNameTextField1.setEditable(true);
-//                empPasswordField1.setEditable(true);
-//                empPositionTextField1.setEditable(true);
-//            }
+
 
         String details = findempdata(userName);
         try {
