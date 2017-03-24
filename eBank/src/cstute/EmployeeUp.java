@@ -13,7 +13,14 @@ public class EmployeeUp extends javax.swing.JFrame {
     /**
      * Creates new form Registration
      */
-    
+    public EmployeeUp() {
+        initComponents();
+//        getContentPane().setBackground(Color.GRAY);
+        setTitle("eBank");
+        ImageIcon img = new ImageIcon("src/icon.png");
+        this.setLocationRelativeTo(null);
+//        updateEmpBtn.setEnabled(false);
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
