@@ -278,10 +278,7 @@ public class EmployeeUp extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("Edit", jPanel2);
 
-        deleteAcntButton.setText("Delete");
-        deleteAcntButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                deleteAcntButtonActionPerformed(evt);
+    
             }
         });
 
