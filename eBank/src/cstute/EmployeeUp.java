@@ -26,16 +26,7 @@ public class EmployeeUp extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-        jSeparator2 = new javax.swing.JSeparator();
-        jTabbedPane2 = new javax.swing.JTabbedPane();
-        jPanel1 = new javax.swing.JPanel();
-        empUserNameTextField = new javax.swing.JTextField();
-        empPasswordField = new javax.swing.JPasswordField();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        empNameTextField = new javax.swing.JTextField();
-        createEmpButton = new javax.swing.JButton();
+        = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         empPositionTextField = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
