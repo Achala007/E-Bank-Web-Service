@@ -515,7 +515,13 @@ public class EmployeeUp extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    p
+    public static void startEmp() {
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new EmployeeUp().setVisible(true);
+            }
+        });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
