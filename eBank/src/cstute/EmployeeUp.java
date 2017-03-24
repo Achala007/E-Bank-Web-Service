@@ -465,20 +465,7 @@ public class EmployeeUp extends javax.swing.JFrame {
 
 
         String details = findempdata(userName);
-        try {
-            String[] detailsArr = details.split("&");
-            empNameTextField1.setText(detailsArr[0]);
-            empPositionTextField1.setText(detailsArr[1]);
-            empUserNameTextField1.setText(detailsArr[2]);
-            empPasswordField1.setText(detailsArr[3]);
-            empUserNameTextField1.setEditable(false);
-            empPositionTextField1.setEditable(true);
-            empNameTextField1.setEditable(true);
-            empPasswordField1.setEditable(true);
-            updateEmpBtn.setEnabled(true);
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "User not found.");
-        }
+        
 
     }//GEN-LAST:event_empUserNameTextField1MousePressed
 
