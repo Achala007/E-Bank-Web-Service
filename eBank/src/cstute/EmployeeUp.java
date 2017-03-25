@@ -576,11 +576,7 @@ public class EmployeeUp extends javax.swing.JFrame {
         return port.deleteEmployee(userName);
     }
 
-    private static String updateEmp(java.lang.String name, java.lang.String position, java.lang.String username, java.lang.String pass) {
-        ebank.ManageEmpData_Service service = new ebank.ManageEmpData_Service();
-        ebank.ManageEmpData port = service.getManageEmpDataPort();
-        return port.updateEmp(name, position, username, pass);
-    }
+    
 
     private static String findempdata(java.lang.String userName) {
         ebank.ManageEmpData_Service service = new ebank.ManageEmpData_Service();
