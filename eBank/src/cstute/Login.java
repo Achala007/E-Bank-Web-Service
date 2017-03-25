@@ -13,12 +13,7 @@ public class Login extends javax.swing.JFrame {
     /**
      * Creates new form Login
      */
-    public Login() {
-        initComponents();
-        getContentPane().setBackground(Color.GRAY);
-        setTitle("eBank");
-        ImageIcon img = new ImageIcon("src/icon.png");
-        this.setLocationRelativeTo(null);
+    ationRelativeTo(null);
     }
 
     @SuppressWarnings("unchecked")
