@@ -562,19 +562,6 @@ public class EmployeeUp extends javax.swing.JFrame {
     private javax.swing.JButton logoutBtn2;
     private javax.swing.JButton logoutBtn3;
     private javax.swing.JButton updateEmpBtn;
-    // End of variables declaration//GEN-END:variables
-
-    private static String createEmployee(java.lang.String name, java.lang.String position, java.lang.String userName, java.lang.String password) {
-        ebank.ManageEmpData_Service service = new ebank.ManageEmpData_Service();
-        ebank.ManageEmpData port = service.getManageEmpDataPort();
-        return port.createEmployee(name, position, userName, password);
-    }
-
-    private static String deleteEmployee(java.lang.String userName) {
-        ebank.ManageEmpData_Service service = new ebank.ManageEmpData_Service();
-        ebank.ManageEmpData port = service.getManageEmpDataPort();
-        return port.deleteEmployee(userName);
-    }
 
     private static String updateEmp(java.lang.String name, java.lang.String position, java.lang.String username, java.lang.String pass) {
         ebank.ManageEmpData_Service service = new ebank.ManageEmpData_Service();
