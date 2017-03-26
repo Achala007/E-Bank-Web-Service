@@ -155,7 +155,10 @@ public class Login extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_loginButtonActionPerformed
 
-    private void 
+    private void clearButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonActionPerformed
+        // TODO add your handling code here:
+        userNameTextFiled.setText(null);
+        passwordField.setText(null);
     }//GEN-LAST:event_clearButtonActionPerformed
 
     public static void start() {
