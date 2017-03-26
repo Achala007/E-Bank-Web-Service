@@ -54,11 +54,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        clearButton.setText("Clear");
-        clearButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                clearButtonActionPerformed(evt);
-            }
+        
         });
 
         jLabel4.setText("Sign in as admin : ");
