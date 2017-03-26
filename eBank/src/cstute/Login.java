@@ -163,7 +163,9 @@ public class Login extends javax.swing.JFrame {
 
     public static void start() {
 
-       
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Login().setVisible(true);
             }
         });
     }
