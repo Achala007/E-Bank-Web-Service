@@ -150,8 +150,7 @@ public class Login extends javax.swing.JFrame {
                 Selections.startSelection(false);
                 dispose();
             }else{                
-            JOptionPane.showMessageDialog(null, "Invalid credentials");
-            }
+            JOptionPane.showMessageDialog(null, "
         }
     }//GEN-LAST:event_loginButtonActionPerformed
 
