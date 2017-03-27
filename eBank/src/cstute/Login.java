@@ -208,6 +208,10 @@ public class Login extends javax.swing.JFrame {
 //        return port.logIn(user, pass, isAdmin);
 //    }
 
-
+    private static boolean empLogIn(java.lang.String user, java.lang.String pass, boolean isAdmin) {
+        ebank.EBankLogin_Service service = new ebank.EBankLogin_Service();
+        ebank.EBankLogin port = service.getEBankLoginPort();
+        return port.empLogIn(user, pass, isAdmin);
+    }   
     
 }
