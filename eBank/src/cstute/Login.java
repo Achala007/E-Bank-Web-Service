@@ -177,12 +177,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JProgressBar jProgressBar1;
-    private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JButton loginButton;
-    private javax.swing.JPasswordField passwordField;
-    private javax.swing.JTextField userNameTextFiled;
+
     // End of variables declaration//GEN-END:variables
 
 //    private static String signIn(java.lang.String user, java.lang.String pass, boolean isAdmin) {
