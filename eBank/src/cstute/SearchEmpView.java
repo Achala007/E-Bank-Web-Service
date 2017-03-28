@@ -46,7 +46,10 @@ public class SearchEmpView extends javax.swing.JFrame {
     /**
      * Creates new form SearchEmpView
      */
-    
+    public SearchEmpView() {
+        initComponents();
+//        getContentPane().setBackground(Color.DARK_GRAY);
+    }
 
   
     /**
