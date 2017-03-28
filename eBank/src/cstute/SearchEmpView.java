@@ -25,7 +25,7 @@ public class SearchEmpView extends javax.swing.JFrame {
             }
         });
         new SearchEmpView(true).display(model);
-
+/
     }
     
     public void display(String model) {
@@ -85,9 +85,19 @@ public class SearchEmpView extends javax.swing.JFrame {
         jLabel18 = new javax.swing.JLabel();
         lable9 = new javax.swing.JLabel();
         lable10 = new javax.swing.JLabel();
-      
+        jLabel21 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
 
-        j
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setText("Name :");
+
+        jLabel2.setText("Sort code :");
+
+        jLabel3.setText("DOB : ");
+
+        jLabel4.setText("Address : ");
+
         jLabel5.setText("Mobile :");
 
         jLabel6.setText("Email :");
