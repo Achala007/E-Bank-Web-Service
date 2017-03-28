@@ -161,11 +161,6 @@ public class Login extends javax.swing.JFrame {
         passwordField.setText(null);
     }//GEN-LAST:event_clearButtonActionPerformed
 
-    public static void start() {
-
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Login().setVisible(true);
             }
         });
     }
