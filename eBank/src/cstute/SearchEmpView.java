@@ -10,7 +10,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Ramzan Dieze
+ * @author Achala Piyarathna
  */
 public class SearchEmpView extends javax.swing.JFrame {
 
