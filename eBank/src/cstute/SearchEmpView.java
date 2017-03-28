@@ -31,16 +31,7 @@ public class SearchEmpView extends javax.swing.JFrame {
     public void display(String model) {
 //        System.out.println("Hei "+model);
         initComponents();
-        lable1.setText(model.split("&")[0]);
-        lable2.setText(model.split("&")[1]);
-        lable3.setText(model.split("&")[2]);
-        lable4.setText(model.split("&")[3]);
-        lable5.setText(model.split("&")[4]);
-        lable6.setText(model.split("&")[5]);
-        lable7.setText(model.split("&")[6]);
-        lable8.setText(model.split("&")[7]);
-        lable9.setText(model.split("&")[8]);
-        lable10.setText(model.split("&")[9]);
+     
     }
 
     /**
