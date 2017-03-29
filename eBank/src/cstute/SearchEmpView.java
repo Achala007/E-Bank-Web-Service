@@ -181,7 +181,7 @@ public class SearchEmpView extends javax.swing.JFrame {
                             .addComponent(jLabel8)
                             .addComponent(jLabel1))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.
                             .addComponent(lable8)
                             .addComponent(lable2)
                             .addComponent(lable3)
