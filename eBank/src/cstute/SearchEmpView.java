@@ -289,12 +289,7 @@ public class SearchEmpView extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         CustomerUp.startCust();
-        dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-        viewCustomerList.viewCstList();
+        dispose();tList();
         dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
 
