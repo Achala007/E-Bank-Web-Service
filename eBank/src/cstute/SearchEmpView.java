@@ -326,7 +326,10 @@ public class SearchEmpView extends javax.swing.JFrame {
     private static javax.swing.JLabel lable1;
     private static javax.swing.JLabel lable10;
     private static javax.swing.JLabel lable2;
-    private JLabel lable6;
+    private static javax.swing.JLabel lable3;
+    private static javax.swing.JLabel lable4;
+    private static javax.swing.JLabel lable5;
+    private static javax.swing.JLabel lable6;
     private static javax.swing.JLabel lable7;
     private static javax.swing.JLabel lable8;
     private static javax.swing.JLabel lable9;
