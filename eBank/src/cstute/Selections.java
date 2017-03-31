@@ -34,7 +34,12 @@ public class Selections extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        
+        jLabel1 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        mngEmpBtn = new javax.swing.JButton();
+        custListBtn = new javax.swing.JButton();
+        mngCustBtn = new javax.swing.JButton();
+        backBtn = new java.awt.Button();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
