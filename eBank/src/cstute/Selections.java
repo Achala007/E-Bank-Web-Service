@@ -17,7 +17,14 @@ public class Selections extends javax.swing.JFrame {
     /**
      * Creates new form Selections
      */
- 
+    public Selections() {
+        initComponents();
+        getContentPane().setBackground(Color.GRAY);
+        setTitle("eBank");
+        ImageIcon img = new ImageIcon("src/icon.png");
+        this.setLocationRelativeTo(null);
+    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
