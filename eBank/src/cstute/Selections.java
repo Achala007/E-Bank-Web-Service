@@ -46,10 +46,6 @@ public class Selections extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("Menu ");
 
-        mngEmpBtn.setText("Manage Employee");
-        mngEmpBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mngEmpBtnActionPerformed(evt);
             }
         });
 
