@@ -60,9 +60,7 @@ public class Selections extends javax.swing.JFrame {
             }
         });
 
-        mngCustBtn.setText("Manage Customers");
-        mngCustBtn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        mngCustBtn.setTwt.event.ActionEvent evt) {
                 mngCustBtnActionPerformed(evt);
             }
         });
