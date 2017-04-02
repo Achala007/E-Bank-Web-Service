@@ -24,7 +24,7 @@ import javax.jws.WebParam;
  * @author Ramzan Dieze
  */
 @WebService(serviceName = "manageCustData")
-public class manageCustData {
+public c
 
     /**
      * Web service operation
