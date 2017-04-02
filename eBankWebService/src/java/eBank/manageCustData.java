@@ -5,6 +5,19 @@
  */
 package eBank;
 
+import javax.sql.rowset.WebRowSet;
+import com.sun.rowset.WebRowSetImpl; // Reference implementation
+import java.awt.HeadlessException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.jws.WebService;
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
 
 /**
  *
