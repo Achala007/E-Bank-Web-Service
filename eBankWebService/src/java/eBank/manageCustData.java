@@ -45,16 +45,7 @@ public class manageCustData {
 
             // create the mysql insert preparedstatement
             PreparedStatement preparedStmt = con.prepareStatement(query);
-            preparedStmt.setString(1, name);
-            preparedStmt.setString(2, dob);
-            preparedStmt.setString(3, address);
-            preparedStmt.setInt(4, mobile);
-            preparedStmt.setString(5, email);
-            preparedStmt.setString(6, acntType);
-            preparedStmt.setInt(7, acntNumber);
-            preparedStmt.setString(8, sortCode);
-            preparedStmt.setDouble(9, balance);
-            preparedStmt.setString(10, card);
+            p
             // execute the preparedstatement
 //            boolean result = preparedStmt.execute();
 //
