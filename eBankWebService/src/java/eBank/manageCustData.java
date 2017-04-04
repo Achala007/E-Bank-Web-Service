@@ -40,10 +40,6 @@ public class manageCustData {
             con = DriverManager.getConnection("jdbc:mysql://localhost/ebank", "root", "");
             //here sonoo is database name, root is username and password
 
-            // the mysql insert statement
-            String query = "INSERT INTO `customer`(`name`, `dob`, `address`, `mobile`, `email`, `acntType`, `acntNmb`, `sortCode`, `balance`, `card`)"
-                    + " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
-
             // create the mysql insert preparedstatement
             PreparedStatement preparedStmt = con.prepareStatement(query);
             preparedStmt.setString(1, name);
