@@ -44,11 +44,7 @@ public class manageCustData {
             String query = "INSERT INTO `customer`(`name`, `dob`, `address`, `mobile`, `email`, `acntType`, `acntNmb`, `sortCode`, `balance`, `card`)"
                     + " VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
-            // create the mysql insert preparedstatement
-            PreparedStatement preparedStmt = con.prepareStatement(query);
-            preparedStmt.setString(1, name);
-            preparedStmt.setString(2, dob);
-            preparedStmt.setString(3, address);
+            // create the mysql s);
             preparedStmt.setInt(4, mobile);
             preparedStmt.setString(5, email);
             preparedStmt.setString(6, acntType);
