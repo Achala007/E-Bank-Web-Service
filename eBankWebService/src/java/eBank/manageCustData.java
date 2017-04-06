@@ -67,6 +67,7 @@ public class manageCustData {
                 if (affectedRows > 0) {
                     return "Successfully added the customer to the database.";
                 }
+            con.close();
 
         } catch (SQLException e) {
             if (e.getErrorCode() == 1062) {
