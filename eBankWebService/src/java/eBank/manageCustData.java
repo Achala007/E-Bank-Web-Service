@@ -80,7 +80,9 @@ public class manageCustData {
     }
 
     @WebMethod(operationName = "editCustomer")
-    public String edi
+    public String editCustomer(@WebParam(name = "name") String name, @WebParam(name = "dob") String dob, @WebParam(name = "address") String address, @WebParam(name = "mobile") int mobile, @WebParam(name = "email") String email, @WebParam(name = "acntType") String acntType, @WebParam(name = "acntNumber") int acntNumber, @WebParam(name = "sortCode") String sortCode, @WebParam(name = "balance") double balance, @WebParam(name = "card") String card) {
+        //TODO write your implementation code here:
+        Connection con = null;
         try {
             // create a mysql database connection
             Class.forName("com.mysql.jdbc.Driver");
