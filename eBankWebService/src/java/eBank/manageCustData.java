@@ -51,8 +51,7 @@ public class manageCustData {
             preparedStmt.setInt(4, mobile);
             preparedStmt.setString(5, email);
             preparedStmt.setString(6, acntType);
-            preparedStmt.setInt(7, acntNumber);
-            preparedStmt.setString(8, sortCode);
+            preparedStmt.setInt(7, acntNuode);
             preparedStmt.setDouble(9, balance);
             preparedStmt.setString(10, card);
             // execute the preparedstatement
