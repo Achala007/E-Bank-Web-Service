@@ -11,8 +11,12 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.jws.WebService;
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+
+/**
  *
- * @author Ramzan Dieze
+ * @author Achala piyarathna
  */
 @WebService(serviceName = "eBankSignIn")
 public class eBankSignIn {
