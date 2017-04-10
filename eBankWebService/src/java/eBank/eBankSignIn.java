@@ -11,9 +11,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.jws.WebService;
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
-
+import javax.jws.WebMeth
 /**
  *
  * @author Achala piyarathna
