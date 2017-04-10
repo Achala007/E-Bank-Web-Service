@@ -25,6 +25,9 @@ public class eBankSignIn {
      * Web service operation
      */
     @WebMethod(operationName = "signIn")
+    public String signIn(@WebParam(name = "user") String user, @WebParam(name = "pass") String pass, @WebParam(name = "isAdmin") boolean isAdmin) {
+        Connection con = null;
+        try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/ebank", "root", "");
             if (isAdmin) {
