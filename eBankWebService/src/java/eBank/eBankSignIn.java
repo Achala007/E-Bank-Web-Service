@@ -18,7 +18,7 @@ import javax.jws.WebParam;
  *
  * @author Achala piyarathna
  */
-@WebService(serviceName = "eBankSignIn")
+@WebService(serviceName = "eBSignIn")
 public class eBankSignIn {
 
     /**
