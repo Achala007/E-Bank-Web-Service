@@ -62,12 +62,7 @@ public class manageEmpData {
                 String query = "DELETE FROM `employeedata` WHERE userName = ?";
                 PreparedStatement preparedStmt = con.prepareStatement(query);
                 preparedStmt.setString(1, userName);
-                // execute the preparedstatement
-//                boolean flag = preparedStmt.execute();
-//                    System.out.println(flag);
-//                if(flag){
-//                    return "Deleted";
-//                }
+                
                 int affectedRows = preparedStmt.executeUpdate();
 
                 if (affectedRows > 0) {
