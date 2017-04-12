@@ -30,30 +30,7 @@ public class manageEmpData {
      */
     @WebMethod(operationName = "deleteEmployee")
     public String deleteEmployee(@WebParam(name = "userName") String userName) {
-//        try {
-//            Class.forName("com.mysql.jdbc.Driver");
-//            try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost/ebank", "root", "")) {
-//
-////                String query = "DELETE FROM `employeedata` WHERE userName = ?";
-////                final PreparedStatement ps = con.prepareStatement(query);
-////                ps.setString(1, userName);
-////                final ResultSet resultSet = ps.executeQuery();
-//
-//                String query = "DELETE FROM `employeedata` WHERE userName = ?";
-//                PreparedStatement preparedStmt = con.prepareStatement(query);
-//                preparedStmt.setString(1, userName);
-//                // execute the preparedstatement
-//                preparedStmt.execute();
-//
-//                con.close();
-////                if (resultSet.next()) {
-////                    return "Successfully deleted";
-////                }
-//            }
-//        } catch (HeadlessException | ClassNotFoundException | SQLException ex) {
-//
-//        }
-//        return "Username not found, please check the username.";
+//         "Username not found, please check the username.";
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
