@@ -51,8 +51,7 @@ public class manageEmpData {
         } catch (HeadlessException | ClassNotFoundException | SQLException ex) {
 
         }
-        return "Username not found, please check the username.";
-    }
+        return "Username not found, please check the username.
 
     /**
      * Web service operation
